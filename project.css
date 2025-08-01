@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(51, 32, 32);
+}
+
+ul li a :hover{
+    text-decoration: 3px underline aqua;
+}
+
+.request{
+    background-color:aqua;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+.request a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div{
+    margin-left: 7rem;
+}
+
+header div h2{
+    font-size: 50px;
+    width: 60%;
+    font-family: "Lato", sans-serif;
+}
+
+header div p{
+    width: 40%;
+    color: gray;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+header div button{
+    border: transparent;
+}
+
+
+
+.request{
+    text-decoration: none;
+    color: white;
+}
+
+
+section{
+    
+    background-color: whitesmoke;
+    padding: 50px 20px 50px 150px;
+}
+
+section .on{
+    width: 45%;
+    color: gray;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+
+
+section .container{
+    display: flex;
+    gap: 1rem;
+}
+
+section .container p{
+    color: gray;
+    width: 80%;
+}
+
+section .container div img{
+     width: 60px;
+     padding-top: 30px;
+     margin-bottom: 10px;
+    
+} 
+
+section .container h4{
+    font-size: 20px;
+    width: 60px;
+    color: rgb(11, 8, 8);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section .container p{
+    color: gray;
+    width: 80%;
+    line-height: 1.5;
+}
+
+article .crazy p{
+    width: 45%;
+    color: gray;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+article .crazy h6{
+    color: gray;
+}
+
+article .crazy{
+    display: flex;
+    gap: 1rem;
+}
+
+article .crazy img{
+    width: 200px;
+    padding-top: 30px;
+    margin-bottom: 10px
+}
+
+article .crazy p{
+    color: gray;
+    width: 100%;
+    line-height: 1.5;
+}
+
+article .crazy h5{
+    font-size: 20px;
+    width: 200px;
+    color: rgb(50, 50, 50);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color:rgb(45, 45, 110) ;
+    color: aliceblue;
+    
+}
+
+footer .kolos{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer  ul li a{
+    color: aliceblue;
+    list-style: ;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+footer .fo{
+    margin-bottom: 30px;
+}
+
+footer img{
+    margin-bottom: 10px;
+}
+
+footer button{
+    background-color: aqua;
+    color: white;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+footer p{
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+header img{
+    /* background-image:url(digitalbank-landing-page-master/images/bg-intro-desktop.svg); */
+    margin-top: 1rem;
+    width: 450px;
+    height: 450px;
+}
+
+article{
+    background-color: whitesmoke;
+    padding: 50px 20px 50px 150px;
+}
+
+/* media query starts here  */
+@media (max-width: 768px){
+    nav ul li {
+        display: none;
+
+    }
+    nav .request{
+        display: none;
+    }
+
+    header{
+        flex-direction: column-reverse;
+    }
+
+    header img{
+        width:400px ;
+        height:500px ;
+    }
+
+    header div{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    header div h2{
+        color: blue;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    header div p{
+        width: 100%;
+    }
+
+    section div{
+        flex-direction: column;
+    }
+
+    section div h2{
+        font-size: 30px;
+    }
+
+    section div .on{
+        width: 100px;
+        font-size: 20px;
+    }
+
+    section{
+        padding:50px  ;
+    }
+}
+
+    
